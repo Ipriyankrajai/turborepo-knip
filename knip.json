@@ -1,0 +1,19 @@
+{
+    "$schema": "https://unpkg.com/knip@5/schema.json",
+    "ignoreDependencies": [],
+    "ignoreWorkspaces": [
+        "packages/eslint-config","packages/typescript-config"
+    ],
+    "workspaces": {
+        "apps/docs": {
+            "ignoreDependencies": [
+                
+            ]
+        },
+        "apps/web": {
+            "ignoreDependencies": [
+                
+            ]
+        }
+    }
+}
